@@ -39,7 +39,7 @@ export default function Home() {
                     </div>
                 </div>
 
-                <Link href="/intro1">
+                <Link href="/play">
                     <button type="button" className="btn btn-danger rounded-pill start">
                         Next
                     </button>
