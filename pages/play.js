@@ -35,7 +35,7 @@ export default function Home() {
             setNow(now + 1)
             setLargest(largest + 1)
         } else if (now !== largest) {
-            setNow(largest)
+            setNow(now + 1)
         }
     }
 
@@ -128,6 +128,19 @@ export default function Home() {
                 </div>
 
                 <div className="btnGroup">
+                    {QA == 'Q' && now > 0 ? (
+                        <button
+                            type="button"
+                            className="btn btn-danger rounded-pill"
+                            onClick={(e) => {
+                                setNow(now - 1)
+                            }}
+                        >
+                            上一題
+                        </button>
+                    ) : (
+                        ''
+                    )}
                     {QA == 'Q' ? (
                         <button
                             type="button"
@@ -150,7 +163,7 @@ export default function Home() {
                                 checkNow(), checkNotFnishAry()
                             }}
                         >
-                            再想想，下一題
+                            下一題
                         </button>
                     ) : (
                         ''
