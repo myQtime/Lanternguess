@@ -72,7 +72,7 @@ export default function Home() {
     return (
         <div>
             <Head>
-                <title>正發猜燈謎</title>
+                <title>元宵猜燈謎</title>
                 <link rel="icon" href="/favicon.ico" />
                 <link
                     href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
