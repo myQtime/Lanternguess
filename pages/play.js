@@ -169,7 +169,7 @@ export default function Home() {
                         ''
                     )}
                 </div>
-                <div className="inputGroup ">
+                {/* <div className="inputGroup ">
                     <p className="unFnishText">未答題題目</p>
                     <div className="input-group">
                         <input type="text" class="form-control" id="jumpInput" placeholder="輸入題號" />
@@ -185,7 +185,7 @@ export default function Home() {
                         </button>
                     </div>
                     <div className="unFnish mt-1"> {showNotFnish}</div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
